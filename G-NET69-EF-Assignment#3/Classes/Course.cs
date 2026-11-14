@@ -17,7 +17,7 @@ namespace G_NET69_EF_Assignment_3.Classes
         public DateOnly? PublishedDate { get; set; }
         public string? Description { get; set; }
         public int InstructorId { get; set; }
-        public Instructors Instructors { get; set; }
+        public Instructors Instructor { get; set; }
         public int CategoryId { get; set; }
         public Category Category { get; set; }
         public ICollection<Enrollment> Enrollments { get; set; }
